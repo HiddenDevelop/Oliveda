@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    :root {
+    }
+
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f8f6f1;
+    }
+
+    .green-box {
+      color: #e0e0e0;
+      background-color: #4a4a2cdc;
+      color: #ececd0;
+      text-align: center;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    header {
+      border-bottom: #4a4a2cdc solid 2.5rem;
+    }
+    header h1 {
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+
+    header h2 {
+      max-width: 70ch;
+      margin: auto;
+      font-size: 1.25rem;
+      font-style: italic;
+    }
+
+    .center-container {
+      margin: auto;
+      max-width: fit-content;
+    }
+
+    .center-container p {
+      max-width: 72ch;
+      margin: auto;
+      margin-bottom: 1.5rem;
+      padding: 0 2rem;
+      position: relative;
+      overflow: visible;
+    }
+
+    .center-container p img {
+      position: absolute;
+
+      width: 50px;
+      height: auto;
+
+      right: -25px;
+      top: -12.5px;
+    }
+
+    .right {
+      right: 0;
+      left: -35px;
+    }
+
+    .reasons-card {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 1rem;
+      border: 1px dashed gray;
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .reasons-card:nth-child(even) {
+      left: 25px;
+      flex-direction: row-reverse;
+    }
+
+    .reasons-card img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .reasons-card .image-container {
+      min-width: 100px;
+      flex: 1;
+    }
+
+    .text-content {
+      flex: 8;
+      padding: 0.25rem 2rem;
+    }
+
+   .text-content p {
+      margin-bottom: 2rem;
+    }
+
+   .text-content h2 {
+      margin-bottom: 1rem;
+    }
+
+    .cta-section {
+      border: none;
+      background-color: #4a4a2cdc;
+    }
+
+    .cta-section h2 {
+      color: #f5f5f5;
+    }
+
+    .cta-section p {
+      color: #d9d9d9;
+    }
+
+    .cta-section a {
+      display: block;
+
+      background-color: #d98c43;
+      text-decoration: none;
+      color: #d9d9d9;
+      margin: auto;
+      padding: 1rem 2rem;
+      width: fit-content;
+      margin-bottom: 1rem;
+    }
+
+    .cta-section a:hover {
+      background-color: #d98c43c3;
+    }
+
+    .image-center-container {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      padding: 2rem 0;
+      margin: 4rem 0;
+    }
+
+    .image-center-container h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .flex-layout-1 {
+      display: flex;
+      max-width: 1000px;
+      width: 90%;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <header class="green-box">
+      <h1>
+        Struggling with deep lines and wrinkles? <br />
+        Here's why women are obsessed with Oliveda's F59 serum.
+      </h1>
+      <h2>
+        Check out Thomas Lommels (founder of Oliveda) 's story on how he
+        discovered this one ingredient that is now making women age gracefully. 
+      </h2>
+    </header>
+    <section class="center-container">
+      <p>
+        Here's the real reason why F59 Serum is eliminating fine lines and
+        wrinkles better than anything you've tried...
+      </p>
+      <p>
+        At 33 years old, Thomas Lommel was slowly dying and didn't even know it.
+      </p>
+      <p>
+        Before finding Oliveda Thomas was suffering from a disease that eats
+        away at your stomach lining.
+      </p>
+      <p>
+        At night he couldn't lie on his heart side because of the crushing pain
+        and prescription medications had become his daily lifeline just to
+        function normally.
+      </p>
+      <p>
+        He was running a thriving company with over 1,000 employees, but his
+        body was failing him completely.
+      </p>
+      <p>
+        The energy was gone, the vitality was drained, and eventually he became
+        so sick he had to step away from everything he'd built.
+      </p>
+      <p>
+        (What happened next seems impossible, but it led to the anti-aging
+        breakthrough that's reversing years of damage on women's faces.)
+      </p>
+      <p>
+        Out of desperation and what he describes as a spiritual calling, Thomas
+        made a decision that shocked everyone around him.
+      </p>
+      <p>
+        He completely abandoned his prescription drug routine and turned to
+        something most people would consider ridiculous.
+      </p>
+      <p>Olive trees.</p>
+      <p>
+        He began consuming massive amounts of olive oil - taking baths in it,
+        drinking it like medicine, and consuming over 50 liters per year. His
+        doctors thought he'd completely lost his mind.
+      </p>
+      <p>
+        But something extraordinary happened. His ulcers healed completely, the
+        heart problems vanished, and his body regenerated in ways that seemed
+        medically impossible.
+      </p>
+      <p>
+        That's when Thomas unlocked the secret that's now helping millions of
+        women turn back time on their aging skin.
+      </p>
+    </section>
+    <section
+      class="green-box"
+      style="width: 90%; max-width: 1000px; margin: auto; margin-bottom: 2rem"
+    >
+      <h1>
+        Here are 5 reasons why Oliveda's F59 serum is the best choice for you.
+      </h1>
+    </section>
+    <section class="card-container"></section>
+    <section class="cta-section reasons-card">
+      <div class="image-container">
+        <img src="placeholder-image.jpg" />
+      </div>
+      <div class="text-content">
+        <h2>
+          Our F59 Serum is backed by 365 day guarantee because real results take
+          time. 
+        </h2>
+        <p>
+          Our F59 Serum is backed by a 365-day money-back guarantee, because
+          real results take time.
+        </p>
+        <p>
+          Start aging gracefully—join the Olive Tree Family today. No
+          watered-down fillers. No shelf-stable chemicals. Just rich, natural
+          ingredients that nourish, restore, and help you reclaim the skin that
+          still reflects how young you feel inside.
+        </p>
+        <a href="#">Check Availability</a>
+      </div>
+    </section>
+    <section class="image-center-container">
+      <h1>Why Waterless skincare <br />changes everything</h1>
+      <img src="placeholder-image.jpg" alt="" />
+    </section>
+    <section class="center-container">
+      <p>
+        When you remove the water, skincare companies can't hide behind fancy
+        packaging anymore.
+      </p>
+
+      <p>
+        They're forced to pack their products with ingredients that actually
+        work.
+      </p>
+
+      <p>
+        No fillers. No cheap shortcuts. Just pure, concentrated active
+        ingredients.
+      </p>
+
+      <p>That's exactly what happened with Oliveda</p>
+
+      <p>
+        For thousands of years, people knew olive trees had incredible healing
+        powers. But nobody could figure out how to put that power into
+        skincare—until now.
+      </p>
+
+      <p>And after Thomas' life threatening experience.</p>
+
+      <p>
+        He knew he had to show the world the healing power of the Olive Trees.
+      </p>
+
+      <p>
+        Now Oliveda has changed thousands of people’s lives (not only in
+        skincare)
+      </p>
+
+      <ul>
+        <li>Giving reliable anti aging solutions to women.</li>
+        <li>
+          Giving all the water they don't use in their products to countries in
+          need.
+        </li>
+        <li>Maintaining Olive Groves around the world.</li>
+      </ul>
+      <br />
+
+      <p>Even the…</p>
+
+      <p>
+        Mayoress of the Municipality of Arroyomolinos de Leon said “OLIVE TREE
+        PEOPLE are the region's greatest conservationists!”
+      </p>
+    </section>
+    <section class="flex-layout-1">
+      <img src="placeholder-image.jpg" alt="" />
+      <div class="text-content">
+        <h1>Why most serums fall short</h1>
+        <p>
+          Most serums claim to be "Botox in a bottle," but they don't have the
+          ingredients to make it happen.
+        </p>
+
+        <p>The reality?</p>
+
+        <p>
+          Most serums are just 70% water – even the expensive ones that cost
+          $200 a bottle.
+        </p>
+
+        <p>
+          At Oliveda, we do it completely differently. Our star ingredient is
+          olive leaf, which contains potent levels of hydroxytyrosol – we're
+          talking 1,000× more concentrated than regular olive oil.
+        </p>
+
+       
+      </div>
+    </section>
+    <section class="flex-layout-1">
+      <img src="placeholder-image.jpg" alt="" />
+      <div class="text-content">
+        
+
+        <p>
+          This is the super-ingredient that actually reverses aging at the
+          cellular level.
+        </p>
+
+        <p>And our F59 serum contains 70% of that powerhouse ingredient.</p>
+
+        <p>That's why women are seeing results like this:</p>
+
+        <p>&lt;testimonials&gt;</p>
+
+        <p>
+          The truth is, waterless beauty companies like ours are changing the
+          entire skincare game. When you remove all that filler water, you get
+          pure, concentrated results that actually work.
+        </p>
+      </div>
+    </section>
+  </body>
+  <script>
+    const cards = [
+      {
+        img: "./placeholder-image.jpg",
+        alt: "#",
+        title: "Leading waterless skincare brand",
+        bullets: [
+          `Thomas Lommelsaid - “Every skin care product that shows the word
+            ‘aqua’ first on the ingredients list is usually about 70% water,” he
+            explained. “That leaves barely any room for real, active ingredients
+            — just cheap fillers and oils with long shelf lives that do very
+            little for your skin.”`,
+          "Our F59 Serum is 70% pure olive leaf extract—which has 40 times more hydroxytyrosol than olive oil.",
+        ],
+      },
+      {
+        img: "./placeholder-image.jpg",
+        alt: "#",
+        title: "Reduces Inflammation",
+        bullets: [
+          `The F59 face scrum contains hydroxytyrosol is one of nature's most powerful anti-inflammatories. It calms irritated skin, repairs damage, and stops the constant cycle of dryness and irritation that makes you look older than you feel.`,
+        ],
+      },
+      {
+        img: "./placeholder-image.jpg",
+        alt: "#",
+        title: "Firms and lifts aging skin",
+        bullets: [
+          `As we age our skin gets looser, and regular creams just sit on top of your skin. Our F59 serum gives you a tingly sensation when you apply it. That's how you know it's absorbing into your skin and lifting those areas where you need  it most. `,
+        ],
+      },
+      {
+        img: "./placeholder-image.jpg",
+        alt: "#",
+        title: "Diminish fine lines",
+        bullets: [
+          `Our F59 is packed with hydroxytyrosol, and you know what that means... It means less inflamed skin and faster skin renewal, which brings that fresh, smoother skin to the surface quicker. Together, this diminishes those fine lines you've been stressing about, making your skin softer and healthier.`,
+        ],
+      },
+      {
+        img: "./placeholder-image.jpg",
+        alt: "#",
+        title: "F59 biggest differentiators - Hydroxytyrosol",
+        bullets: [
+          `Here's what's crazy - hydroxytyrosol is one of earth's most powerful antioxidants found in olive leaves, and it's like having a cellular repair system working on your skin. It's anti-inflammatory and extremely effective for anti-aging because it helps your skin retain moisture at the cellular level.`,
+          "What makes F59 different? Our serum is 70% hydroxytyrosol - most other products can't even come close to this concentrated dose of age-reversing power.",
+        ],
+      },
+    ];
+
+    function createReasonsCard(card) {
+      const len = card.bullets.length;
+      const items = card.bullets
+        .map((text, index) => {
+          if (index == len - 1) {
+            return `<p style="margin: 0">${text}</p>`;
+          }
+
+          return `<p >${text}</p>`;
+        })
+        .join("");
+      return `
+       <div class="reasons-card">
+        <div class="image-container">
+          <img src="${card.img}" alt="${card.alt}" />
+        </div>
+        <div class="text-content">
+          <h2>${card.title}</h2>
+          ${items}
+        </div>
+      </div>
+        `;
+    }
+    const container = document.querySelector(".card-container");
+    container.innerHTML = cards.map(createReasonsCard).join("");
+  </script>
+  <script>
+    const textContainers = document.querySelectorAll(".center-container");
+
+    textContainers.forEach((container) => {
+      const paragraphs = container.querySelectorAll("p");
+
+      paragraphs.forEach((element, index) => {
+        if (index % 2 == 1) {
+          element.innerHTML =
+            element.innerHTML +
+            `<img src="./leaf.png"><img class="right" src="./leaf.png">`;
+        }
+      });
+    });
+  </script>
+</html>
